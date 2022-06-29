@@ -7,3 +7,4 @@ WORKDIR ./app
 RUN chmod +x ./setup.sh
 RUN ./setup.sh
 
+ENTRYPOINT ["python", "api.py"]
